@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-image{
+    height: 50px;
+    width: 100px;
+}
+
+.logo-image:hover{
+    border: 1px solid white;
+}
+
+.logo-image img{
+    height: 30px;
+    padding-top: 10px;
+    width: 80px;
+    margin-left: 8px;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.nav-address{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    align-content: center;
+    border: 2px solid transparent;
+}
+
+.nav-address:hover{
+    border: 1px solid white;
+}
+
+.nav-address #d{
+    margin-left: 20px;
+    color: grey;
+}
+
+.add-icon img{
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    display: flex;
+}
+
+.add-icon{
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-search{
+    background-color: rgb(243, 168, 71);
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.search-bar{
+    width: 500px;
+}
+
+.search-select{
+    width: 50px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+}
+
+.search-icon img{
+    height: 30px;
+    width: 30px;
+    background-image: contain;
+    margin-left: 8px;
+    align-self: center;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+}
+
+.language img{
+    height: 20px;
+    width: 30px;
+}
+
+.language{
+    height: 30px;
+    width: 80px;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    font-weight: bolder;
+    border: 2px solid transparent;
+}
+
+.language:hover{
+    border: 1px solid white;
+}
+
+.account{
+    height: 50px;
+    width: 120px;
+    justify-content: center;
+    align-content: center;
+}
+
+.account:hover{
+    border:1px solid white
+}
+
+.return-order{
+    height: 50px;
+    width: 70px;
+    justify-content: center;
+    align-content: center;
+}
+
+.return-order:hover{
+    border: 1px solid white;
+}
+
+.cart img{
+    height: 50px;
+    width: 40px;
+    padding-top: 15px;
+    background-size: cover;
+}
+
+.cart{
+    height: 50px;
+    width: 80px;
+    display: flex;
+}
+
+.cart:hover{
+    border: 1px solid white;
+}
+
+.cart p{
+    align-self: flex-end;
+    padding-bottom: 3px;
+}
+
+/* navbar ends here*/
+
+.navbar-menu{
+    height: 40px;
+    background-color: rgb(35, 47, 62);
+}
+
+.outline:hover{
+    border: 1px solid white;
+}
+
+.navbar-menu{
+    color: white;
+    display: flex;
+}
+
+.navbar-menu *{
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-menu-all{
+    display: flex;
+    gap: 5px;
+    width: 60px;
+}
+
+.navbar-menu-all img{
+    height: 30px;
+    width: 20px;
+    align-self: center;
+}
